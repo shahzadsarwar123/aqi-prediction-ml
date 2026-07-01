@@ -1,0 +1,26 @@
+# Data files — too large for GitHub, sensitive source data
+data/
+
+# Python cache files — auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment — everyone creates their own locally
+.venv/
+venv/
+env/
+
+# VS Code settings — personal editor config, not project code
+.vscode/
+
+# Jupyter notebook checkpoints (if you ever use notebooks)
+.ipynb_checkpoints/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Model files if you ever save trained models (can be huge)
+*.pkl
+*.joblib
