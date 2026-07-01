@@ -42,6 +42,8 @@ aqi-prediction-ml/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+├── report/
+│   └── AQI_Prediction_Report.pdf   # Full analysis report
 ```
 
 
@@ -92,7 +94,7 @@ Learning curves showed a training F1 of 0.999 vs validation F1 of 0.466 — seve
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/aqi-prediction-ml.git
+git clone https://github.com/shahzadsarwar123/aqi-prediction-ml.git
 cd aqi-prediction-ml
 
 # 2. Install dependencies
